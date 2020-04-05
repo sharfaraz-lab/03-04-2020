@@ -1,0 +1,27 @@
+//Write a program to create a calculator with all arithmetic operations has functions;
+
+function sum(a,b){
+    return(a+b)
+
+}
+function sub(a,b){
+    return(a-b)
+
+}
+function prod(a,b){
+    return(a*b)
+
+}
+function div(a,b){
+    return(a/b)
+
+}
+
+
+var x = 10
+var y = 12
+
+console.log(sum(x,y))
+console.log(sub(x,y))
+console.log(prod(x,y))
+console.log(div(x,y))
